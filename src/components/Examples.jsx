@@ -8,7 +8,7 @@ export default function Examples() {
   function handleSelect(selectedButton) {
     setSelectedTopic(selectedButton);
   }
-
+ 
   let tabContent = <p>Please select a Topic.</p>;
   if (selectedTopic) {
     tabContent = ( 
